@@ -1,0 +1,16 @@
+article.sound{
+    width: 600px;
+    margin: 50px auto;
+    font-size: 0;
+}
+
+article.sound section.sound-content{
+    width: 300px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+article.sound section.sound-content a img {
+    width: 50%;
+    border-radius: 100%;
+}

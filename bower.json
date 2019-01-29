@@ -1,0 +1,20 @@
+{
+  "name": "svg",
+  "authors": [
+    "maoyuning <maoyuning@mafengwo.com>"
+  ],
+  "description": "learn svg",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

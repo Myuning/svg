@@ -1,0 +1,28 @@
+article.sound {
+  width: 600px;
+  margin: 50px auto;
+  font-size: 0;
+}
+article.sound section.sound-content {
+  width: 300px;
+  display: inline-block;
+  font-size: 14px;
+}
+article.sound section.sound-content a img {
+  width: 50%;
+  border-radius: 100%;
+}
+article.sound section.sound-content div.content {
+  border: 1px solid red;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+article.sound section.sound-content div.content p {
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+}
+article.sound section.sound-content:hover .content {
+  opacity: 1;
+}
+/*# sourceMappingURL=index.css.map */
