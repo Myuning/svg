@@ -1,16 +1,61 @@
-article.sound{
+article.sound {
     width: 600px;
     margin: 50px auto;
     font-size: 0;
 }
-
-article.sound section.sound-content{
+article.sound section.sound-content {
     width: 300px;
     display: inline-block;
     font-size: 14px;
 }
-
 article.sound section.sound-content a img {
     width: 50%;
     border-radius: 100%;
+}
+article.sound section.sound-content div.content svg path,
+article.sound section.sound-content div.content svg polygon {
+    fill: white;
+    stroke: orange;
+    stroke-width: 6px;
+}
+article.sound section.sound-content div.content p {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+}
+article.sound section#sound-1 div.content svg path {
+    opacity: 0;
+    transform: scale(0.3);
+    transform-origin: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+article.sound section#sound-2 div.content {
+/*     padding: 20px; */
+}
+article.sound section.sound-content#sound-2 div.content svg polygon {
+    stroke-dasharray: 1500;
+    stroke-dashoffset: -1500;
+    transition: .3s;
+}
+article.sound section.sound-content#sound-1:hover div.content svg path {
+    opacity: 1;
+    transform: scale(1);
+}
+article.sound section.sound-content#sound-1:hover div.content svg #path1 {
+    transition-delay: 0s;
+}
+article.sound section.sound-content#sound-1:hover div.content svg #path2 {
+    transition-delay: 0.1s;
+}
+article.sound section.sound-content#sound-1:hover div.content svg #path3 {
+    transition-delay: 0.2s;
+}
+article.sound section.sound-content#sound-1:hover div.content svg #path4 {
+    transition-delay: 0.3s;
+}
+article.sound section.sound-content#sound-2:hover {
+/*     padding: 20px; */
+}
+article.sound section.sound-content#sound-2:hover div.content svg polygon {
+    stroke-dashoffset: 0;
 }
